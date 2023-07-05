@@ -1,8 +1,11 @@
-const fs = require("fs")
-
-const hello = () => {
+const sayHello = () => {
     const subject = "world"
     console.log(`Hello ${subject}!`)
 }
 
-hello()
+const sayGoodbye = () => {
+    const subject = "world"
+    console.log(`Hello ${subject}!`)
+}
+
+sayHello()
