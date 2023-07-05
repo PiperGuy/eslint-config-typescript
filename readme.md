@@ -3,7 +3,7 @@
 [![version][version-badge]][npm]
 [![downloads][downloads-badge]][npm]
 
-_My personal [eslint][eslint] configuration._
+_My personal [eslint][eslint] configuration for typescript._
 
 ## 📦 Installation
 
