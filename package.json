@@ -1,0 +1,39 @@
+{
+    "name": "@piperguy/eslint-config",
+    "version": "0.1.0",
+    "description": "💎 eslint configuration",
+    "keywords": [
+        "eslint",
+        "eslint-config",
+        "prettier"
+    ],
+    "homepage": "https://github.com/piperguy/eslint-config",
+    "bugs": {
+        "url": "https://github.com/piperguy/eslint-config/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Naveen Pandurangi",
+        "email": "naveenppandurangi@gmail.com",
+        "url": "https://piperguy.github.io"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piperguy/eslint-config"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "peerDependencies": {
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.16.3",
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0"
+    }
+}
